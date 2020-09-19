@@ -1,0 +1,178 @@
+body {
+/*background-image:url(../images/bg_body-17.png);
+background-position:top;
+background-repeat:repeat-y;*/
+margin:0px 0px 0px 0px; /*top right bottom left*/
+font-family:"Trebuchet MS";
+font-size:12px;
+}
+
+div#adminBodyLayer{
+width: 1000px; /*Width of main container*/
+height:auto;
+margin:0 auto; /*Center container on page*/
+border:1px solid #003366;
+color:black;
+margin-top:5px;
+margin-bottom:0px;
+}
+
+div#adminContent{
+/*background-image:url(../images/pagetitle_bg.png);
+background-repeat:repeat-x;*/
+width:988px;
+height:auto;
+border:0px solid red;
+padding:5px;
+margin:0 auto; /*Center container on page*/
+margin-bottom:10px;
+}
+
+form{
+margin:0px;
+margin-bottom:5px;
+}
+
+p#pageTitle{
+color:#990000;
+font-weight:bold;
+}
+
+table#listView{
+border-collapse:collapse;
+font-family:"Trebuchet MS";
+font-size:12px;
+border:1px solid #999;
+height:auto;
+}
+
+table#listView th{
+/*background-image:url(../images/pagetitle_bg.png);
+background-repeat:repeat-x;*/
+background-color:#ccc;
+border-left:1px solid gray;
+}
+
+table#listView tr.selected{
+background-color:#99CCFF;
+}
+
+table#listView td{
+border:1px solid gray;
+}
+
+table#listView td.center{
+text-align:center;
+}
+
+table#listView td.no-highlight{
+background-color:white;
+text-align:center;
+}
+
+/*HILIGH THE ROW WHEN MOUSE MOVE OVER*/
+/*table#listView tr:hover, table#listView tr.hilite , table#listView tr:hover, table#listView tr.hilite{
+background-color: #EFE6C5;
+color: #000000;
+cursor:pointer;
+}*/
+
+table tr.r1 {
+background-color: #D8E1ED ;
+color: black;
+}
+
+table tr.r2 {
+background-color:white  ;
+
+}
+
+table tr.r3 {
+background-color:#F8F7F5 ;
+
+}
+
+table tr.gray {
+background-color:#CCCCCC ;
+
+}
+
+table tr.darkgray {
+background-color:#999 ;
+
+}
+
+table tr.lightgrey {
+background-color:#EAEAEA ;
+
+}
+table tr.gold {
+background-color:#CC9933 ;
+
+}
+
+span{
+font-family:"Trebuchet MS";
+font-size:12px;
+}
+
+span.red{
+font-family:"Trebuchet MS";
+color:red;
+}
+
+span.gray{
+font-family:"Trebuchet MS";
+color:#333333;
+}
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+clear:both;
+height:0;
+font-size: 1px;
+line-height: 0px;
+}
+
+
+table#formview{
+border:0px solid red;
+font-family:"Trebuchet MS";
+font-size:12px;
+color:black;
+text-transform:none;
+font-weight:normal;
+}
+
+table#formview th{
+text-align:right;
+border:0px solid gray;
+font-weight:bold;
+
+}
+
+table#formview th.left{
+text-align:left;
+}
+
+
+table#formview td{
+border:0px solid gray;
+}
+
+table#formview th.red, table#formview td.red{
+color:red;
+}
+
+p{
+margin:0px;
+padding:0px;
+}
+
+input.smallButton{
+font-size:9px;
+margin:0px;
+font-weight:normal;
+}
+
+textarea.content{
+}
